@@ -1,0 +1,1528 @@
+# Copyright (C) 2023 Pee-Aye Creative
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Divi Countdown Timer Maker 3.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/divi-timer-pro\n"
+"POT-Creation-Date: 2023-02-03 17:09:02+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n1.0.2\n"
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:21
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:22
+msgid "Countdown Timer Maker"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:38
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2083
+msgid "Display Type"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:39
+msgid " Configuration Settings"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:41
+msgid "Content Visibility Conditions"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:42
+msgid "Elements"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:43
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:163
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:177
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2091
+msgid "Text"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:44
+msgid "More Info Button"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:50
+msgid "Title Text"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:51
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:142
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2090
+msgid "Bar"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:52
+msgid " Circle Timer Type"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:53
+msgid "Time Remaining Label"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:54
+msgid "Time Remaining Text"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:55
+msgid "Counters Container"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:56
+msgid "Sections"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:57
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:191
+msgid "Numbers"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:58
+msgid "Separators"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:59
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:87
+msgid "Labels"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:101
+msgid "Section"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:114
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:128
+msgid "Number"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:149
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:403
+msgid "Title"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:213
+msgid "Separator"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:231
+msgid "Label"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:251
+msgid "Expiry Message"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:310
+msgid "Labels Box Shadow"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:320
+msgid "Sections Box Shadow"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:330
+msgid "Number Box Shadow"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:340
+msgid "Bar Box Shadow"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:350
+msgid "Container Box Shadow"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:363
+msgid "Expiry Button"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:364
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:376
+msgid "Enable this feature to customize the appearance of the button"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:375
+msgid "alignment of era"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:399
+msgid "Container"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:407
+msgid "Timer Section"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:415
+msgid "An introduction to the Countdown Timer Maker module"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:427
+msgid "This is the title displayed for the countdown timer"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:435
+msgid "Days Custom Label Text - Singular"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:438
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:448
+msgid "Enter custom text for the days section label."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:445
+msgid "Days Custom Label Text - Plural"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:455
+msgid "Hours Custom Label Text - Singular"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:458
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:468
+msgid "Enter custom text for the hours section label."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:465
+msgid "Hours Custom Label Text - Plural"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:475
+msgid "Minutes Custom Label Text - Singular"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:478
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:488
+msgid "Enter custom text for the minutess section label."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:485
+msgid "Minutes Custom Label Text - Plural"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:495
+msgid "Seconds Custom  Label Text - Singular"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:498
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:507
+msgid "Enter custom text for the seconds section label."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:504
+msgid "Seconds Custom  Label Text - Plural"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:513
+msgid "Current Id"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:517
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:525
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:533
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:541
+msgid "This is the title displayed for the Divi Countdown Timer Maker Timer."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:521
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:529
+msgid "Time Zone"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:537
+msgid "Get Ip Address"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:546
+msgid "Current Url"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:550
+msgid "This field redirect on current page."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:556
+msgid "Section Width"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:557
+msgid "Set the width of the countdown timer sections."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:572
+msgid "Hide Timer During Countdown"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:576
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:592
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:607
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:623
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:639
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:655
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:671
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1548
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1563
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1607
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1633
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1703
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1726
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1750
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2607
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2619
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2632
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2645
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2658
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2671
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2685
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2698
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2711
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2724
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2737
+msgid "No"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:577
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:593
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:608
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:624
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:640
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:656
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:672
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1549
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1564
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1608
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1634
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1704
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1727
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1751
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2608
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2620
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2633
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2646
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2659
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2672
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2686
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2699
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2712
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2725
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2738
+msgid "Yes"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:579
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1551
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1566
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1610
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1753
+msgid ""
+"Choose to set an interval from when the countdown timer ends until it "
+"starts again."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:588
+msgid "Show Other Content Before Start Trigger"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:595
+msgid ""
+"Choose to show other sections, rows, columns, or modules containing the CSS "
+"class “divi-timer-pro-show-before” before the timer begins when the start "
+"trigger has not been activated yet."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:603
+msgid "Hide Other Content Before Start Trigger"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:610
+msgid ""
+"Choose to hide other sections, rows, columns, or modules containing the CSS "
+"class “divi-timer-pro-hide-before” before the timer begins when the start "
+"trigger has not been activated yet."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:619
+msgid "Show Other Content During Countdown"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:626
+msgid ""
+"Choose to show other sections, rows, columns, or modules containing the CSS "
+"class “divi-timer-pro-show-during” during the timer if the start trigger "
+"has already been activated but the end timer has not been reached yet."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:635
+msgid "Hide Other Content During Countdown"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:642
+msgid ""
+"Choose to hide other sections, rows, columns, or modules containing the CSS "
+"class “divi-timer-pro-hide-during” during the timer if the start trigger "
+"has already been activated but the end timer has not been reached yet."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:651
+msgid "Show Other Content After End Trigger"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:658
+msgid ""
+"Choose to show other sections, rows, columns, or modules containing the CSS "
+"class “divi-timer-pro-show-after” after the timer ends when the end trigger "
+"has already been reached."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:667
+msgid "Hide Other Content After End Trigger"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:674
+msgid ""
+"Choose to hide other sections, rows, columns, or modules containing the CSS "
+"class “divi-timer-pro-hide-after” after the timer ends when the end trigger "
+"has already been reached."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:683
+msgid "Countdown Timer Type"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:687
+msgid "Evergreen"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:688
+msgid "Recurring"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:689
+msgid "Fixed"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:692
+msgid "Choose the type of countdown timer you want to use."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:698
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:873
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:893
+msgid "Start Trigger"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:702
+msgid "When Visitor First Lands On Page"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:704
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:744
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:765
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:813
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:835
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:884
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:906
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1060
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1083
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1141
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1808
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1826
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1848
+msgid "Choose the type of timer you want."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:713
+msgid "Recurring Cycle"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:717
+msgid "Daily"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:718
+msgid "Weekly"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:719
+msgid "Monthly"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:720
+msgid "Yearly"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:721
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1219
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1264
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1311
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1385
+msgid "Custom"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:723
+msgid "Choose how often you want the recurring countdown timer to cycle."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:732
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:754
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:797
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:824
+msgid "Repeat Every"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:736
+msgid "1 Day"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:758
+msgid "1 Week"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:775
+msgid "Start Day Of The Week"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:779
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1052
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1075
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1182
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2107
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2152
+msgid "Sunday"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:780
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1053
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1076
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1183
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2108
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2153
+msgid "Monday"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:781
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1054
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1077
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1184
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2109
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2154
+msgid "Tuesday"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:782
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1055
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1078
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1185
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2110
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2155
+msgid "Wednesday"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:783
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1056
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1079
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1186
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2111
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2156
+msgid "Thursday"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:784
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1057
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1080
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1187
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2112
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2157
+msgid "Friday"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:785
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1058
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1081
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1188
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2113
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2158
+msgid "Saturday"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:787
+msgid "Choose the day of the week when the recurring countdown timer will start."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:801
+msgid "1 Month"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:802
+msgid "2 Months"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:803
+msgid "3 Months"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:804
+msgid "4 Months"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:805
+msgid "5 Months"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:806
+msgid "6 Months"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:807
+msgid "7 Months"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:808
+msgid "8 Months"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:809
+msgid "9 Months"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:810
+msgid "10 Months"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:811
+msgid "11 Months"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:828
+msgid "1 Year"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:829
+msgid "2 Years"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:830
+msgid "3 Years"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:831
+msgid "4 Years"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:832
+msgid "5 Years"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:833
+msgid "6 Years"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:845
+msgid "Start Month"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:849
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1355
+msgid "January"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:850
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1356
+msgid "February"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:851
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1357
+msgid "March"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:852
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1358
+msgid "April"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:853
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1359
+msgid "May"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:854
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1360
+msgid "June"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:855
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1361
+msgid "July"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:856
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1362
+msgid "August"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:857
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1363
+msgid "September"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:858
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1364
+msgid "October"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:859
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1365
+msgid "November"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:860
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1366
+msgid "December"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:862
+msgid ""
+"Select the month of the year when the recurring countdown timer will start "
+"each year."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:879
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:898
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1124
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1447
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1821
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1840
+msgid "Date/Time"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:880
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:899
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1822
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1841
+msgid "Day Of The Week"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:881
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:900
+msgid "First Day of  the Month"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:882
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:901
+msgid "Start Of Custom Duration Before End Trigger"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:897
+msgid "Immediately"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:919
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:973
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1861
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1933
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1997
+msgid "Countdown Duration Days"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:922
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:976
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1864
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1936
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2000
+msgid "Set the number of days for the countdown timer."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:932
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:987
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1873
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1949
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2011
+msgid "Countdown Duration Hours"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:935
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:990
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1876
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1952
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2014
+msgid "Set the number of hours for the countdown timer."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:946
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1001
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1886
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1965
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2026
+msgid "Countdown Duration Minutes"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:949
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1004
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1889
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1902
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1968
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2029
+msgid "Set the number of minutes for the countdown timer."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:960
+msgid "Countdown Duration Seconds"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:963
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1018
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1984
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2044
+msgid "Set the number of seconds for the countdown timer."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1015
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1899
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1981
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2041
+msgid "Countdown Duration seconds"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1048
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1071
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2103
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2148
+msgid "Choose Day Of The Week"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1127
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1450
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1462
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1510
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1523
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2058
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2071
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2176
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2204
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2217
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2232
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2249
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2342
+msgid ""
+"Select the date and time when your countdown timer should start. This is "
+"based on your timezone settings in <a href=\"%1$s\" target=\"_blank\" "
+"title=\"WordPress General Settings\">WordPress General Settings</a>"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1138
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1151
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1165
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1246
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1292
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1459
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1507
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1520
+msgid "Start Time"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1154
+msgid ""
+"Enter the hour and minute when the recurring countdown timer will start "
+"each day."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1168
+msgid ""
+"Enter the hour and minute when the recurring countdown timer will start "
+"each week."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1178
+msgid "End Day Of The Week"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1190
+msgid "Choose the day of the week when the recurring countdown timer will end."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1200
+msgid "Weekly End Time"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1203
+msgid ""
+"Enter the hour and minute when the recurring countdown timer will end each "
+"week."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1214
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1259
+msgid "Start Day Of The Month"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1218
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1263
+msgid "First"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1221
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1266
+msgid "Select the day of the month when the recurring countdown timer will start."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1232
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1277
+msgid "Custom Start Day Of The Month"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1235
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1280
+msgid ""
+"Enter a number for the day of the month when the recurring countdown timer "
+"will start."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1249
+msgid ""
+"Enter the hour and minute when the recurring countdown timer will start "
+"each year on the selected month and day."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1295
+msgid ""
+"Enter the hour and minute when the recurring countdown timer will start "
+"each month on the selected day."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1306
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1380
+msgid "End Day Of The Month"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1310
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1384
+msgid "Last"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1313
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1387
+msgid "Select the day of the month when the countdown will end."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1324
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1397
+msgid "Custom End Day Of The Month"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1327
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1400
+msgid ""
+"Enter a number for the day of the month when the recurring countdown timer "
+"will end."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1338
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1411
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2055
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2068
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2173
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2187
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2201
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2214
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2229
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2246
+msgid "End Time"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1341
+msgid ""
+"Enter the hour and minute when the recurring countdown timer will end each "
+"month on the selected day."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1351
+msgid "End Month"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1368
+msgid ""
+"Select the month of the year when the recurring countdown time will end "
+"each year."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1414
+msgid ""
+"Enter the hour and minute when the recurring countdown timer will end each "
+"year on the selected month and day."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1544
+msgid "Hide Timer After End Trigger"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1559
+msgid "Redirect To Another URL After End Trigger"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1574
+msgid "Redirect URL"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1578
+msgid "Enter the website url the page will redirect to when the timer ends."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1586
+msgid "Redirect Preference"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1590
+msgid "Always Redirect During Cookie Duration"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1591
+msgid "Redirect Only Once"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1593
+msgid ""
+"Choose whether the visitor should be redirected once and allowed to return "
+"to the original page, or continually be redirected during the cookie "
+"duration."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1603
+msgid "Show Message After End Trigger"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1618
+msgid "Expiry Message Text"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1621
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2309
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2366
+msgid "Enter a custom message you want to display when the countdown timer ends."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1629
+msgid "Show Button After End Trigger"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1636
+msgid "Choose to show or hide a button below the message text."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1642
+msgid "Button Link URL"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1645
+msgid "Input the destination URL for the button."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1653
+msgid "Button Link Target"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1657
+msgid "In The Same Window"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1658
+msgid "In The New Tab"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1661
+msgid "Choose whether or not the button link opens in a new window."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1671
+msgid "Enter the custom text for the button."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1682
+msgid "Timer Button icon"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1685
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1694
+msgid "Post button."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1691
+msgid "WooCommerce Plugin Active"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1699
+msgid "Show Other Content"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1706
+msgid ""
+"Choose to show other sections, rows, columns, or modules containing the "
+"custom CSS class “divi-timer-pro-show” when the countdown timer ends."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1711
+msgid "Custom Class For Show Content"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1714
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1737
+msgid ""
+"Add your own custom CSS class here if you do not want to use the default "
+"“divi-timer-pro-hide” class."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1722
+msgid "Hide Other Content"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1729
+msgid ""
+"Choose to hide other sections, rows, columns, or modules containing the "
+"custom CSS class “divi-timer-pro-hide” when the countdown timer ends."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1734
+msgid "Custom Class For Hidden Content"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1746
+msgid "Pause Interval"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1762
+msgid "Pause Interval Duration Days"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1765
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2325
+msgid ""
+"Set the number of days from when the countdown timer ends until it starts "
+"again."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1775
+msgid "Pause Interval Duration Hours"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1778
+msgid ""
+"Set the number of hours from when the countdown timer ends until it starts "
+"again."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1788
+msgid "Pause Interval Duration Minutes"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1791
+msgid ""
+"Set the number of minutes from when the countdown timer ends until it "
+"starts again."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1802
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1817
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1836
+msgid "End Trigger"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1806
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1824
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1843
+msgid "End Of Custom Duration After Start Trigger"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1823
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:1842
+msgid "Last Day of  the Month"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2087
+msgid "Standard"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2088
+msgid "Flip"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2089
+msgid "Circle"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2096
+msgid "Choose the type of timer(s) you want to display."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2115
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2160
+msgid ""
+"This option means the timer will count down and end based on a selected day "
+"of the week. Once this End Trigger option is selected, two new dropdown "
+"select settings will appear below. The user needs to choose a day of the "
+"week and time of day for this option to take effect."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2190
+msgid ""
+"Enter the hour and minute when the recurring countdown timer will end each "
+"day."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2260
+msgid "Number Of Recurring Cycles"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2269
+msgid "Cycle Forever"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2270
+msgid "Custom Number Of Cycles"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2272
+msgid ""
+"Choose whether the recurring countdown timer should cycle forever or only a "
+"specific number of times."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2282
+msgid "Custom Number Of Recurring Cycles"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2285
+msgid "Enter the number of times the recurring countdown timer will cycle."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2297
+msgid "Recurrences Repeat Until"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2306
+msgid "Custom Date"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2307
+msgid "Custom Number Of Recurrences"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2322
+msgid "Number Of Recurrences"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2339
+msgid "Recurrences End Date"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2354
+msgid "Reset Campaign"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2363
+msgid "Never"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2364
+msgid "After Custom Duration"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2375
+msgid "Cookie Duration Days"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2378
+msgid "Set the number of days until the site visitor session ends."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2388
+msgid "Cookie Duration Hours"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2391
+msgid "Set the number of hours until the site visitor session ends."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2401
+msgid "Cookie Duration Minutes"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2404
+msgid "Set the number of minutes until the site visitor session ends."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2442
+msgid "Bar Background Color"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2443
+msgid "Set the color for the bar."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2451
+msgid "Bar Remaining Time Color"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2452
+msgid "Set the color for the remaining timer progress bar."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2460
+msgid "Bar Height"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2461
+msgid "Set the height of the timer bar."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2479
+msgid "Numbers Background Color"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2480
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2488
+msgid "Add a background color to the countdown timer numbers area."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2487
+msgid "Container Background Color"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2495
+msgid "Labels Background Color"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2496
+msgid "Add a background color to the countdown timer labels."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2503
+msgid "Separators Color"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2504
+msgid "You can pick unique background colors for Events."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2511
+msgid "Sections Background Color"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2512
+msgid "Set a color for the background of the countdown timer sections."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2522
+msgid "Circle  Color"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2523
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2553
+msgid "Set a color for the background of the circle timer sections."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2532
+msgid "Circle Thickness"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2533
+msgid "Set the  circle thickness of the circle timer."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2552
+msgid "Circle Progress  Color"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2563
+msgid "Circle Progress Thickness"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2564
+msgid "Set the  circle progress thickness of the circle timer ."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2583
+msgid "Circle Radius"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2584
+msgid "Set the  circle radius of the circle timer."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2603
+msgid "Show Time Remaining Label"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2610
+msgid "Choose to show or hide the time remaining label."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2615
+msgid "Show Time Remaining Text"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2622
+msgid "Choose to show or hide the time remaining text inside the bar."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2628
+msgid "Hide Days Leading Zero"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2635
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2648
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2674
+msgid "Choose to show or hide the days section of the countdown timer."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2641
+msgid "Hide All Leading Zero"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2654
+msgid " Show Separators Between Sections"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2661
+msgid ""
+"Choose to show or hide the separators between the Days Hours Minutes and "
+"Seconds sections of the countdown timer."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2667
+msgid "Show Days"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2681
+msgid "Show Hours"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2688
+msgid "Choose to show or hide the hours section of the countdown timer."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2694
+msgid "Show Separator 2"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2701
+msgid ""
+"Choose to show or hide the separator 2 between the Hours and Minutes "
+"sections of the countdown timer."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2707
+msgid "Show Minutes"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2714
+msgid "Choose to show or hide the minutes section of the countdown timer."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2720
+msgid "Show Separator 3"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2727
+msgid ""
+"Choose to show or hide separator 3 between the Minutes and Seconds sections "
+"of the countdown timer."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2733
+msgid "Show Seconds"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2740
+msgid "Choose to show or hide the seconds section of the countdown timer."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2747
+msgid "Margin of Sections"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2749
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2765
+msgid "Adjust the spacing around the outside of the countdown timer Sections."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2755
+msgid "Padding of Sections"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2757
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2773
+msgid "Adjust the spacing around the inside of the countdown timer Sections."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2763
+msgid "Margin of Container"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2771
+msgid "Padding of Container"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2779
+msgid "Margin of Number"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2781
+msgid "Adjust the spacing around the outside of the countdown timer numbers area."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2787
+msgid "Padding of Number"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2789
+msgid "Adjust the spacing around the inside of the countdown timer numbers area."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2795
+msgid "Margin of Labels"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2797
+msgid "Adjust the spacing around the outside of the countdown timer labels."
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2803
+msgid "Padding of Labels"
+msgstr ""
+
+#: includes/modules/DiviTimerPro/DiviTimerPro.php:2805
+msgid "Adjust the spacing around the inside of the countdown timer labels."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Divi Countdown Timer Maker"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The ultimate upgraded Divi countdown timer module with 20x more "
+"functionality and design features. "
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Pee-Aye Creative"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "www.peeayecreative.com"
+msgstr ""

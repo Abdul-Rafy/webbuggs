@@ -1,0 +1,456 @@
+.react-clock {
+  display: block;
+  position: relative;
+}
+.react-clock,
+.react-clock *,
+.react-clock *:before,
+.react-clock *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.react-clock__face {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.react-clock__hand {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  right: 50%;
+}
+.react-clock__hand__body {
+  position: absolute;
+  background-color: black;
+  transform: translateX(-50%);
+}
+.react-clock__mark {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  right: 50%;
+}
+.react-clock__mark__body {
+  position: absolute;
+  background-color: black;
+  transform: translateX(-50%);
+}
+.react-clock__mark__number {
+  position: absolute;
+  left: -40px;
+  width: 80px;
+  text-align: center;
+}
+.react-clock__second-hand__body {
+  background-color: red;
+}
+
+.react-time-picker {
+  display: inline-flex;
+  position: relative;
+}
+.react-time-picker,
+.react-time-picker *,
+.react-time-picker *:before,
+.react-time-picker *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.react-time-picker--disabled {
+  background-color: #f0f0f0;
+  color: #6d6d6d;
+}
+/* .react-time-picker__wrapper {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  border: thin solid gray;
+} */
+.react-time-picker__inputGroup {
+  min-width: calc((4px * 3) +  0.54em * 6  +  0.217em * 2);
+  flex-grow: 1;
+  padding: 0 2px;
+  box-sizing: content-box;
+}
+.react-time-picker__inputGroup__divider {
+  padding: 1px 0;
+  white-space: pre;
+}
+.react-time-picker__inputGroup__input {
+  min-width: 165px !important;
+  height: 100%;
+  position: relative;
+  padding: 0 1px;
+  border: 0;
+  background: none;
+  font: inherit;
+  box-sizing: content-box;
+  -moz-appearance: textfield;
+}
+.react-time-picker__inputGroup__input::-webkit-outer-spin-button,
+.react-time-picker__inputGroup__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.react-time-picker__inputGroup__input:invalid {
+  background: rgba(255, 0, 0, 0.1);
+}
+.react-time-picker__inputGroup__input--hasLeadingZero {
+ width:auto !important;
+  /* padding-left: calc(1px +  0.54em); */
+}
+input.react-time-picker__inputGroup__input.react-time-picker__inputGroup__minute{
+  width:auto !important;
+}
+input.react-time-picker__inputGroup__input.react-time-picker__inputGroup__hour{
+  width:auto !important
+}
+.react-time-picker__inputGroup__amPm {
+  font: inherit;
+  -moz-appearance: menulist;
+}
+.react-time-picker__button {
+  border: 0;
+  background: transparent;
+  padding: 4px 6px;
+}
+.react-time-picker__button:enabled {
+  cursor: pointer;
+}
+.react-time-picker__button:enabled:hover .react-time-picker__button__icon,
+.react-time-picker__button:enabled:focus .react-time-picker__button__icon {
+  stroke: #0078d7;
+}
+.react-time-picker__button:disabled .react-time-picker__button__icon {
+  stroke: #6d6d6d;
+}
+.react-time-picker__button svg {
+  display: inherit;
+}
+.react-time-picker__clock {
+  width: 200px;
+  height: 200px;
+  max-width: 100vw;
+  padding: 25px;
+  background-color: white;
+  border: thin solid #a0a096;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+}
+.react-time-picker__clock--closed {
+  display: none;
+}
+
+.react-calendar {
+  border-radius: 4px;
+  width: 350px;
+  max-width: 100%;
+  background: white;
+  font: inherit;
+  line-height: 1.125em;
+  border: 0;
+  overflow: hidden;
+}
+.react-calendar button {
+  margin: 0;
+  border: 0;
+  outline: none;
+  font: inherit;
+  font-size: 0.8em;
+}
+.react-calendar button:enabled:hover {
+  cursor: pointer;
+}
+.react-calendar--doubleView {
+  width: 700px;
+}
+.react-calendar--doubleView .react-calendar__viewContainer {
+  display: flex;
+  margin: -0.5em;
+}
+.react-calendar--doubleView .react-calendar__viewContainer > * {
+  width: 50%;
+  margin: 0.5em;
+}
+.react-calendar,
+.react-calendar *,
+.react-calendar *:before,
+.react-calendar *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.react-calendar__navigation {
+  height: 44px;
+  margin-bottom: 10px;
+}
+.react-calendar__navigation button {
+  min-width: 44px;
+  background: none;
+}
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: #e6e6e6;
+}
+.react-calendar__navigation button[disabled] {
+  background-color: #f0f0f0;
+}
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.75em;
+}
+.react-calendar__month-view__weekdays__weekday {
+  padding: 0.5em;
+}
+.react-calendar__month-view__weekNumbers {
+  font-weight: bold;
+}
+.react-calendar__month-view__weekNumbers .react-calendar__tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75em;
+  padding: calc(0.75em / 0.75) calc(0.5em / 0.75);
+}
+.react-calendar__month-view__days__day--weekend {
+  color: #d10000;
+}
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #757575;
+}
+.react-calendar__year-view .react-calendar__tile,
+.react-calendar__decade-view .react-calendar__tile,
+.react-calendar__century-view .react-calendar__tile {
+  padding: 2em 0.5em;
+}
+.react-calendar__tile {
+  max-width: 100%;
+  text-align: center;
+  padding: 0.75em 0.5em;
+  background: none;
+}
+.react-calendar__tile:disabled {
+  background-color: #f0f0f0;
+}
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: #e6e6e6;
+}
+.react-calendar__tile--hasActive {
+  background: #76baff;
+}
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
+  background: #a9d4ff;
+}
+.react-calendar__tile--active {
+  background: #006edc;
+  color: white;
+}
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #1087ff;
+}
+.react-calendar--selectRange .react-calendar__tile--hover {
+  background-color: #e6e6e6;
+}
+.react-clock {
+  background-color: white;
+  border-radius: 50%;
+}
+.react-clock__face {
+  border: 3px solid white;
+}
+.react-clock__second-hand {
+  transition: transform cubic-bezier(0.68, 0, 0.27, 1.55) 0.2s;
+}
+.react-clock__second-hand__body:before {
+  content: '';
+  display: block;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  background-color: red;
+  border-radius: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.react-clock__second-hand__body:after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background-color: red;
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+.react-time-picker * {
+  font-family: inherit;
+}
+.react-time-picker--closed {
+  border-radius: 4px;
+}
+/* .react-time-picker--closed .react-time-picker__wrapper {
+  border-radius: 4px;
+  border:2px solid;
+} */
+/* .react-time-picker--open {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border:2px solid;
+} */
+/* .react-time-picker--open .react-time-picker__wrapper {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border:2px solid;
+}
+.react-time-picker__wrapper {
+  background: white;
+  border: 0;
+  border-radius: 4px;
+  font-size: 1.25em;
+} */
+.react-time-picker__inputGroup {
+  min-width: calc(4px + (4px * 3) +  0.54em * 8  +  0.217em * 2);
+  flex-grow: 1;
+  display: flex;
+  padding: 2px;
+  align-items: baseline;
+}
+.react-time-picker__inputGroup__divider {
+  padding: 1px;
+}
+.react-time-picker__inputGroup__input {
+  -moz-appearance: textfield;
+}
+.react-time-picker__inputGroup__input::-webkit-outer-spin-button,
+.react-time-picker__inputGroup__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.react-time-picker__inputGroup__input:invalid {
+  background: rgba(255, 0, 0, 0.1);
+}
+/* .react-time-picker__inputGroup__input--hasLeadingZero {
+  margin-left: -0.54em;
+  padding-left: calc(1px +  0.54em);
+} */
+.react-time-picker__calendar {
+  border-radius: 4px;
+  box-shadow: 0 30px 40px 0 rgba(16, 36, 94, 0.2);
+  border-top-left-radius: 0;
+}
+.react-time-picker__calendar .react-calendar {
+  border-top-left-radius: 0;
+}
+.react-time-picker__clock {
+  border-radius: 4px;
+  box-shadow: 0 30px 40px 0 rgba(16, 36, 94, 0.2);
+  font-family: inherit;
+  width: 220px;
+  height: 220px;
+  padding: 20px;
+  border: 0;
+  border-top-left-radius: 0;
+}
+.react-time-picker__clock .react-clock__second-hand {
+  transition: transform cubic-bezier(0.68, 0, 0.27, 1.55) 0.2s;
+}
+.react-time-picker__clock .react-clock__second-hand__body:before {
+  width: 5px;
+  height: 5px;
+}
+.react-time-picker__clock .react-clock__second-hand__body:after {
+  width: 15px;
+  height: 15px;
+}
+
+
+.react-time-picker__inputGroup__hour{
+  background: #f1f5f9;
+    max-height: 30px;
+    border: 0;
+    border-radius: 3px;
+    padding: 7px 10px;
+    box-sizing: border-box;
+    transition: background .2s ease;
+    color: #4c5866;
+    font-family: Open Sans,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: none;
+    line-height: normal;
+    box-shadow: none;
+    letter-spacing: normal;
+}
+
+
+.react-time-picker__inputGroup > .react-time-picker__inputGroup__hour{
+    /* width:250px !important; */
+    background: #f1f5f9;
+    max-height: 30px;
+    border: 0;
+    border-radius: 3px;
+    padding: 7px 10px;
+    box-sizing: border-box;
+    transition: background .2s ease;
+    color: #4c5866;
+    font-family: Open Sans,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: none;
+    line-height: normal;
+    box-shadow: none;
+    letter-spacing: normal;
+}
+
+.react-time-picker__inputGroup >  .react-time-picker__inputGroup__minute{
+  /* width:250px !important; */
+  background: #f1f5f9;
+  max-height: 30px;
+  border: 0;
+  border-radius: 3px;
+  padding: 7px 10px;
+  box-sizing: border-box;
+  transition: background .2s ease;
+  color: #4c5866;
+  font-family: Open Sans,Helvetica,Roboto,Arial,sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: none;
+  line-height: normal;
+  box-shadow: none;
+  letter-spacing: normal;
+}
+
+.custom-lable-hour{
+  margin-right: 137px;
+  margin-left: 2px;
+}
+
+.custom-lable-time-container{
+  width: min-content;
+}
+
+
+
+
+
+

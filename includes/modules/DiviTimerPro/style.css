@@ -1,0 +1,967 @@
+.ditp_hello_world {
+    
+
+}
+.ditp_countdown_timer.et_pb_countdown_timer .section.days p.ditp_hide_day_zero:first-letter {  
+  font-size:0px;
+  vertical-align: bottom;
+}
+.et_pb_countdown_timer .sep, .ditp_countdown_timer .section.values {
+  vertical-align: middle;
+  }
+  .ditp_hidetimer{
+    display: none !important;
+  }
+  span.sep.section {
+  margin-bottom: 10px;
+  }
+.section{
+  border:0px solid !important;
+}
+
+.ditp_countdown_counter_container{
+  border:0px solid !important;
+}
+.value{
+  border:0px solid !important;
+  display:block !important;
+  min-width: auto !important;
+}
+.timer_display_none{
+  display:none !important;
+}
+.et_pb_module.change-color{
+    background:#8ec3eb;
+}
+.et_pb_button_no_hover{
+  padding-right: 0.7em !important;
+    padding-left: 2em !important;
+}
+.et_pb_message_icon_hover{
+  padding-left: 0.7em !important;
+    padding-right: 2em !important;
+}
+.et_pb_icon_align_hover_left:hover
+{
+  padding-right: 0.7em !important;
+    padding-left: 2em !important;
+}
+.label{
+  color:white !important;
+  border:0px solid !important;
+
+}
+/* span.split{
+  color:white !important;
+} */
+.et_pb_countdown_timer h4.title {
+  color:white !important;
+}
+span.section{
+  line-height: 54px;
+  font-size:52px;
+}
+.color_class_dark{
+  color:#555 !important;
+}
+.color_class_light{
+  color:white !important;
+}
+/* .root .left {
+  direction: ltr;
+}
+.root .countBox.left {
+  display: inline-flex;
+  direction: rtl;
+}
+.root .inline.left {
+  display: inline-flex;
+  direction: rtl;
+} */
+.root .inline.responsive {
+    width: auto;
+    display: flex;
+  }
+  .root .countBox.responsive {
+    width: auto;
+  }
+  /* .root .countBox {
+    display: flex;
+     width: 215px; 
+  } */
+  .root .countBox .countBoxItem {
+    flex: 1;
+  }
+  .root .countBox .countBoxItem .lable {
+    font-size: 12px;
+    text-align: center;
+  }
+  .root .countBox .countBoxItem .count {
+    text-align: center;
+  }
+  .root .inline {
+    /* display: flex; */
+    /* width: 215px; */
+  }
+  .root .inline .countBoxItem {
+    flex: 1;
+  }
+  .root .inline .countBoxItem .lable {
+    font-size: 12px;
+    text-align: center;
+  }
+  .root .inline .countBoxItem .count {
+    text-align: center;
+  }
+  .root .split {
+    line-height: 54px;
+    height: 50px;
+  }
+  .root .small {
+    width: 125px;
+    font-size: 14px;
+  }
+  .root .small .lable {
+    font-size: 10px;
+  }
+  .root .small .split {
+    line-height: 33px;
+    height: 45px;
+    font-size: 14px;
+  }
+  .root .small .count {
+    font-size: 14px;
+  }
+  .root .small.responsive {
+    display: flex !important;
+    width: auto !important;
+  }
+  .root .small.responsive .count {
+    flex: 1;
+    text-align: center;
+  }
+  .root .small.border {
+    width: 145px;
+  }
+  .root .small.border .count {
+    line-height: 32px;
+    height: 30px;
+    border: 1px solid #cfcfcf;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 0 5px;
+    flex: 1;
+    text-align: center;
+  }
+  .root .small.border .split {
+    line-height: 66px;
+    height: 45px;
+  }
+  .root .inline.small .count {
+    display: inline-block;
+  }
+  .root .inline.small .split {
+    line-height: 33px;
+    height: 45px;
+    font-size: 14px;
+  }
+  .root .inline.small.right {
+    display: inline-block;
+    direction: ltr;
+  }
+  .root .inline.small.left {
+    direction: rtl;
+  }
+  .root .inline.small.responsive .split {
+    line-height: 30px;
+    height: 30px;
+  }
+  .root .inline.small.border.responsive .split {
+    line-height: 35px;
+    height: 30px;
+  }
+  .root .countBox.small .split {
+    line-height: 75px;
+    height: 50px;
+    font-size: 14px;
+  }
+  .root .countBox.small.right {
+    display: inline-flex;
+    direction: rtl;
+  }
+  .root .countBox.small.left {
+    direction: ltr;
+  }
+  .root .countBox.small.responsive .split {
+    line-height: 55px;
+    height: 45px;
+  }
+  .root .countBox.small.border.responsive .split {
+    line-height: 65px;
+    height: 45px;
+  }
+  .root .middle {
+    width: 155px;
+    font-size: 18px;
+  }
+  .root .middle .lable {
+    font-size: 12px;
+  }
+  .root .middle .count {
+    font-size: 18px;
+  }
+  .root .middle .split {
+    line-height: 33px;
+    height: 45px;
+    font-size: 18px;
+  }
+  .root .middle.right {
+    display: inline-block;
+    direction: ltr;
+  }
+  .root .middle.responsive {
+    display: flex !important;
+    width: auto !important;
+  }
+  .root .middle.responsive .count {
+    flex: 1;
+    text-align: center;
+  }
+  .root .middle.border {
+    width: 160px;
+  }
+  .root .middle.border .count {
+    line-height: 32px;
+    height: 30px;
+    border: 1px solid #cfcfcf;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 0 5px;
+    flex: 1;
+    text-align: center;
+  }
+  .root .middle.border .split {
+    line-height: 66px;
+    height: 45px;
+  }
+  .root .inline.middle .count {
+    display: inline-block;
+  }
+  .root .inline.middle.right {
+    display: inline-block;
+    direction: ltr;
+  }
+  .root .inline.middle.left {
+    direction: rtl;
+  }
+  .root .inline.middle.responsive .split {
+    line-height: 35px;
+    height: 35px;
+  }
+  .root .inline.middle.border.responsive .split {
+    line-height: 35px;
+    height: 30px;
+  }
+  .root .countBox.middle.right {
+    display: inline-flex;
+    direction: rtl;
+  }
+  .root .countBox.middle.left {
+    direction: ltr;
+  }
+  .root .countBox.middle.responsive .split {
+    line-height: 55px;
+    height: 45px;
+  }
+  .root .countBox.middle.border.responsive .split {
+    line-height: 65px;
+    height: 45px;
+  }
+  .root .large {
+    width: 200px;
+    font-size: 22px;
+  }
+  .root .large .lable {
+    font-size: 12px;
+  }
+  .root .large .count {
+    font-size: 22px;
+  }
+  .root .large .split {
+    font-size: 22px;
+  }
+  .root .large.right {
+    direction: ltr;
+  }
+  .root .large.responsive {
+    display: flex !important;
+    width: auto !important;
+  }
+  .root .large.responsive .count {
+    flex: 1;
+    text-align: center;
+  }
+  .root .large.border {
+    width: 185px;
+  }
+  .root .large.border .count {
+    line-height: 32px;
+    height: 30px;
+    border: 1px solid #cfcfcf;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 0 5px;
+    flex: 1;
+    text-align: center;
+  }
+  .root .large.border .split {
+    line-height: 75px;
+    height: 45px;
+  }
+  .root .inline.large .count {
+    display: inline-block;
+  }
+  .root .inline.large .split {
+    line-height: 33px;
+    height: 45px;
+  }
+  .root .inline.large.right {
+    display: inline-block;
+  }
+  .root .inline.large.left {
+    direction: rtl;
+  }
+  .root .inline.large.responsive .split {
+    line-height: 40px;
+    height: 40px;
+  }
+  .root .inline.large.border.responsive .split {
+    line-height: 35px;
+    height: 35px;
+  }
+  .root .countBox.large .split {
+    line-height: 68px;
+    height: 45px;
+  }
+  .root .countBox.large.right {
+    display: inline-flex;
+  }
+  .root .countBox.large.left {
+    direction: ltr;
+  }
+  .root .countBox.large.responsive .split {
+    line-height: 55px;
+    height: 45px;
+  }
+  .root .countBox.large.border.responsive .split {
+    line-height: 70px;
+    height: 45px;
+  }
+  .root .big .count {
+    font-size: 26px;
+  }
+  .root .big .split {
+    height: 45px;
+    font-size: 26px;
+  }
+  .root .big.right {
+    direction: ltr;
+  }
+  .root .big.responsive {
+    display: flex !important;
+    width: auto !important;
+  }
+  .root .big.responsive .count {
+    flex: 1;
+    text-align: center;
+  }
+  .root .big.border {
+    width: 204px;
+  }
+  .root .big.border .count {
+    line-height: 32px;
+    height: 30px;
+    border: 1px solid #cfcfcf;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 0 5px;
+    flex: 1;
+    text-align: center;
+  }
+  .root .big.border .split {
+    line-height: 75px;
+    height: 45px;
+  }
+  .root .big.border.responsive .split {
+    line-height: 35px;
+    height: 35px;
+  }
+  .root .inline.big .count {
+    display: inline-block;
+  }
+  .root .inline.big .split {
+    line-height: 33px;
+  }
+  .root .inline.big.right {
+    display: inline-block;
+  }
+  .root .inline.big.left {
+    direction: rtl;
+  }
+  .root .inline.big.responsive .split {
+    line-height: 40px;
+    height: 40px;
+  }
+  .root .inline.big.border.responsive .split {
+    line-height: 35px;
+    height: 35px;
+  }
+  .root .countBox.big .split {
+    line-height: 68px;
+  }
+  .root .countBox.big.right {
+    display: inline-flex;
+  }
+  .root .countBox.big.left {
+    direction: ltr;
+  }
+  .root .countBox.big.responsive .split {
+    line-height: 55px;
+    height: 45px;
+  }
+  .root .countBox.big.border.responsive .split {
+    line-height: 75px;
+    height: 50px;
+  }
+
+  .et_pb_countdown_timer .section.values
+   {
+    width: 23% !important;
+    max-width: 100% !important;
+    vertical-align: top;
+  }
+
+  .flipper-ddd,
+  .flipper-HH,
+  .flipper-ii,
+  .flipper-ss
+   {
+    /* width: 23% !important; */
+    max-width: 100% !important;
+    vertical-align: top;
+    text-align: center;
+}
+
+.flipper-label{
+  text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+    display: block;
+}
+  /* .divi-timer-pro-hide-before{
+    display: none;
+  }
+  
+  .divi-timer-pro-show-during {
+    display:none;
+  } */
+ .dipt_timer_remaining_label{
+    color: black;
+  }
+  .et_pb_countdown_timer_text span.section{
+    line-height: 54px;
+     font-size: 17px; 
+  }
+  .et_pb_countdown_timer_text{
+    background-color: white !important;
+    color:black;
+    display: flex;
+  }
+  .et_pb_countdown_timer_bar{
+    background-color: white !important;
+    color:black;
+  }
+  .et_pb_countdown_timer_text .section {
+    display: inline-block;
+    position: relative;
+    padding: 0% !important;
+    color:black !important;
+}
+.et_pb_countdown_timer_text .section p{
+    font-size: 17px !important;
+}
+
+.et_pb_countdown_timer_text .section.values {
+  width: auto !important;
+}
+
+.et_pb_counters span.et_pb_counter_amount_number:before {
+  content: "";
+  display: block;
+  max-width: 20px;
+  min-width: 5px;
+}
+
+.et_pb_counters span.et_pb_counter_amount_number:after{
+  content: "";
+  display: block;
+  max-width: 20px;
+  min-width: 5px;
+}
+
+.et_pb_countdown_timer_text .sep{
+  vertical-align: inherit !important;
+}
+.et_pb_countdown_timer_text span.sep.section {
+  margin-bottom: 0px !important;
+  line-height: 0px !important;
+  vertical-align: inherit !important;
+  /* vertical-align: top !important; */
+}
+
+.et_pb_countdown_timer_text .count{
+  color: black !important;
+}
+
+.et_pb_countdown_timer_text .section p{
+   /* line-height: 0px !important; */
+   line-height: normal !important;
+}
+
+
+
+.progress{
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  line-height: 0;
+  font-size: .75rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+}
+
+.progress-bar {
+  padding-right: 10px;
+  text-align: right;
+}
+
+.progress-bar {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #007bff;
+  transition: width .6s ease;
+}
+
+.et_pb_countdown_bar span.et_pb_counter_amount_number:before {
+  content: "";
+  display: block;
+  max-width: 350px !important;
+  min-width: 350px !important;
+}
+
+
+.et_pb_countdown_bar .et_pb_counter_title {
+  color: #666;
+  text-align: left;
+}
+
+.dp_countdown_text_timer .label{
+  display: none;
+}
+
+
+/* Flip timer start */
+
+.flipper {
+  color: #333;
+  display: table;
+  font-size: 110px;
+  line-height: 100%;
+  padding: 0;
+  height: 1.7em;
+  margin: 0 auto;
+  }
+
+  .flipper.flipper-invisible {
+  font-size: 0px !important;
+  }
+  
+  .flipper-group {
+  position: relative;
+  white-space: nowrap;
+  display: block;
+  float: left;
+  padding: 0;
+  margin: 0;
+  }
+  /* .flipper-group label {
+  position: absolute;
+  color: #fff;
+  font-size: 20%;
+  top: 100%;
+  line-height: 1em;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+      transform: translate(-50%, 0);
+  text-align: center;
+  padding-top: .5em;
+  } */
+  
+  .flipper-digit {
+  margin-left: 5px !important;
+  white-space: nowrap;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  /* float: left; */
+  height: 1.2em;
+  overflow-y: hidden;
+  }
+  .flipper-digit span {
+  font-size: 25%;
+  }
+  
+  .flipper-delimiter {
+  white-space: nowrap;
+  display: block;
+  float: left;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  min-width: .1em;
+  white-space: nowrap;
+  display: block;
+  /* padding-top: 0.1em; */
+  /* padding-bottom: 0.1em; */
+  line-height: 1em;
+  }
+  
+  .digit-face {
+  display: block;
+  visibility: hidden;
+  position: relative;
+  border-radius: 0.1em;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 8;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  box-sizing: border-box;
+  text-align: center;
+  }
+  
+  .digit-next {
+  display: block;
+  position: relative;
+  border-radius: 0.1em;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 8;
+  height: 1.2em;
+  background: #fff;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  box-sizing: border-box;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+    -ms-user-select: none;
+      user-select: none;
+  }
+  
+  .digit-top {
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+  pointer-events: none;
+  overflow: hidden;
+  position: absolute;
+  background: #fff;
+  padding-top: 0.1em;
+  padding-bottom: 0;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  border-top-left-radius: 0.1em;
+  border-top-right-radius: 0.1em;
+  box-sizing: border-box;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+    -ms-user-select: none;
+      user-select: none;
+  transition: background 0s linear, -webkit-transform 0s linear;
+  transition: transform 0s linear, background 0s linear;
+  transition: transform 0s linear, background 0s linear, -webkit-transform 0s linear;
+  -webkit-transform-origin: 0 0.6em 0 !important;
+      transform-origin: 0 0.6em 0 !important;
+  -webkit-transform-style: preserve-3d !important;
+      transform-style: preserve-3d !important;
+  z-index: 20;
+  }
+  .digit-top.r {
+  transition: background 0.2s linear, -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear, background 0.2s linear;
+  transition: transform 0.2s linear, background 0.2s linear, -webkit-transform 0.2s linear;
+  -webkit-transform: rotateX(90deg);
+      transform: rotateX(90deg);
+  background: #cccccc;
+  }
+  
+  .digit-top2 {
+  visibility: hidden;
+  position: absolute;
+  height: 50%;
+  left: 0;
+  right: 0;
+  background: #cccccc;
+  transition: -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
+  line-height: 0em !important;
+  top: 50% !important;
+  bottom: auto !important;
+  padding-top: 0;
+  padding-bottom: 0.1em;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  border-bottom-left-radius: 0.1em;
+  border-bottom-right-radius: 0.1em;
+  overflow: hidden;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+    -ms-user-select: none;
+      user-select: none;
+  transition: background 0s linear, -webkit-transform 0s linear;
+  transition: transform 0s linear, background 0s linear;
+  transition: transform 0s linear, background 0s linear, -webkit-transform 0s linear;
+  -webkit-transform: rotateX(-90deg);
+      transform: rotateX(-90deg);
+  -webkit-transform-style: preserve-3d !important;
+      transform-style: preserve-3d !important;
+  -webkit-transform-origin: 0 0 0 !important;
+      transform-origin: 0 0 0 !important;
+  z-index: 20;
+  }
+  .digit-top2.r {
+  visibility: visible;
+  transition: background 0.2s linear 0.2s, -webkit-transform 0.2s linear 0.2s;
+  transition: transform 0.2s linear 0.2s, background 0.2s linear 0.2s;
+  transition: transform 0.2s linear 0.2s, background 0.2s linear 0.2s, -webkit-transform 0.2s linear 0.2s;
+  -webkit-transform: rotateX(0deg);
+      transform: rotateX(0deg);
+  background: #fff;
+  }
+  
+  .digit-bottom {
+  -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+  pointer-events: none;
+  position: absolute;
+  overflow: hidden;
+  background: #fff;
+  height: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  line-height: 0em;
+  padding-top: 0;
+  padding-bottom: 0.1em;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  border-bottom-left-radius: 0.1em;
+  border-bottom-right-radius: 0.1em;
+  box-sizing: border-box;
+  text-align: center;
+  transition: none;
+  }
+  .digit-bottom.r {
+  transition: background 0.2s linear;
+  background: #cccccc;
+  }
+  
+  .flipper-digit:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.5);
+  top: 50%;
+  display: block;
+  z-index: 30;
+  left: 0;
+  right: 0;
+  }
+
+ .flip-countdown-card{
+    margin-bottom: 10px;
+  }
+  .flip-countdown-title{
+    color: white;
+    font-size: 14px !important;
+  }
+
+  .flip-countdown .flip-countdown-piece .flip-countdown-card .flip-countdown-card-sec .card__top,
+  .flip-countdown .flip-countdown-piece .flip-countdown-card .flip-countdown-card-sec .card__bottom{
+    color: black !important;
+  }
+/* Flip timer End */
+
+
+.flip-clock {
+  --fcc-flip-duration: 0.5s; /* transition duration when flip card */
+  --fcc-digit-block-width: 40px; /* width of digit card */
+  --fcc-digit-block-height: 60px; /* height of digit card, highly recommend in even number */
+  --fcc-digit-font-size: 30px; /* font size of digit */
+  --fcc-digit-color: white; /* color of digit */
+  --fcc-label-font-size: 10px; /* font size of label */
+  --fcc-label-color: #ffffff; /* color of label */
+  --fcc-background: black; /* background of digit card */
+  --fcc-divider-color: white; /* color of divider */
+  --fcc-divider-height: 1px; /* height of divider */
+  --fcc-separator-size: 6px; /* size of colon */
+  --fcc-separator-color: red; /* color of colon */
+}
+
+
+.flip-countdown {
+  width: max-content;
+}
+
+.flip-countdown.theme-light{
+  --text-color:#000000 !important;
+}
+
+/* .split-flip:nth-child(){
+  display: none;
+} */
+
+
+/**
+ *	This element is created inside your target element
+ *	It is used so that your own element will not need to be altered
+ **/
+ .time_circles {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/**
+*	This is all the elements used to house all text used
+* in time circles
+**/
+.time_circles > div {
+  position: absolute;
+  text-align: center;
+}
+
+/**
+*	Titles (Days, Hours, etc)
+**/
+.time_circles > div > h4 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  /* text-transform: uppercase; */
+  line-height: 1;
+}
+
+/**
+*	Time numbers, ie: 12
+**/
+.time_circles > div > span {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-family: 'Century Gothic', Arial;
+  line-height: 1;
+  font-weight: bold;
+}
+
+
+
+/* new countdown */
+.countdown-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.countdown-item {
+  color: white;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+    line-height: 30px;
+  margin: 10px;
+    padding-top: 10px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.countdown-item span {
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.countdown-svg {
+  position: absolute;
+  top: -23px;
+  left: -21px;
+  width: 200px;
+  height: 150px;
+}
+
+
+
+.flip-split{
+  color: #fff;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 48px;
+  font-size: 54px;
+}
+
+
+.dtp_circle_time{
+  font-size: 50px;
+  color: white;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.dtp_circle_label{
+  font-size: 17px;
+  color: white;
+}
